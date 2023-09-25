@@ -1,0 +1,22 @@
+@import "../../assets/styles/constants.scss";
+@import "../../assets/styles/colors.scss";
+
+.dashboard-container {
+  .ant-card-body {
+    border: 1px solid #ddd;
+    padding: 5px !important
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .wrap-ds {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  .title-mobile {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0px;
+  }
+}

@@ -1,0 +1,12 @@
+:root {
+    --width-block-cus-info: 350px;
+    --size-cus-name: 20px;
+}
+
+@media (max-width: 1366px) {
+    :root {
+      --width-block-cus-info: 295px;
+      --size-cus-name: 16px;
+    }
+  }
+  

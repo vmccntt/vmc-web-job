@@ -1,0 +1,23 @@
+@import '../../../assets/styles/colors.scss';
+.table-component {
+  .table > :not(:first-child) {
+    border-top: 2px solid $manatee;
+  }
+  tbody tr:hover {
+    background-color: #d3d3d3;
+  }
+  table.first {
+    border-collapse: separate; /*  property default  */
+  }
+  table.second {
+    border-collapse: collapse;
+  }
+
+  table thead tr {
+    border-radius: 2px solid gray;
+  }
+
+  .pagination {
+    justify-content: end;
+  }
+}

@@ -1,0 +1,107 @@
+@import './styles/colors.scss';
+.logout-icon-page {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.message-error {
+  color: $red;
+  align-self: baseline;
+  font-size: small;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+span.required {
+  margin-left: 5px;
+  color: $red;
+}
+
+.input-error {
+  border: 1px solid $red !important;
+}
+
+.text-name-sub {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  span,
+  div {
+    font-size: 14px !important;
+    font-weight: 400;
+  }
+  img {
+    display: none !important;
+  }
+}
+
+.modal-hide-footer {
+  .ant-modal-footer {
+    display: none;
+  }
+}
+
+.btn-export {
+  margin-left: 5px;
+}
+
+.box-search {
+  margin-top: 10px;
+}
+
+.ant-tooltip-inner {
+  a {
+    color: #fff;
+  }
+}
+
+.card__title {
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(218, 216, 216);
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(347, 67%, 45%);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.w-50 {
+  width: 50%;
+}

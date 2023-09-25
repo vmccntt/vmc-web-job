@@ -1,0 +1,134 @@
+.ql-container {
+    box-sizing: border-box;
+    font-family: "PF-BeauSans-Pro", sans-serif !important;
+    /* font-size: 13px; */
+    font-size: 12px;
+    height: 100%;
+    margin: 0px;
+    position: relative;
+  }
+
+  .ql-editor .ql-size-small {
+    /* font-size: 0.75em; */
+    font-size: 10px;
+  }
+
+  .ql-editor .ql-size-large {
+    /* font-size: 1.5em; */
+    font-size: 14px;
+  }
+
+  .ql-editor .ql-size-huge {
+    /* font-size: 2.5em; */
+    font-size: 16px;
+  }
+
+  .ql-snow .ql-picker.ql-size .ql-picker-label::before,
+  .ql-snow .ql-picker.ql-size .ql-picker-item::before {
+    /* content: 'Normal'; */
+    content: '12px';
+  }
+
+  .ql-snow .ql-picker.ql-size .ql-picker-label[data-value=small]::before,
+  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+    /* content: 'Small'; */
+    content: '10px';
+  }
+
+  .ql-snow .ql-picker.ql-size .ql-picker-label[data-value=large]::before,
+  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+    /* content: 'Large'; */
+    content: '14px';
+  }
+
+  .ql-snow .ql-picker.ql-size .ql-picker-label[data-value=huge]::before,
+  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+    /* content: 'Huge'; */
+    content: '16px';
+  }
+
+  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+    font-size: 10px;
+  }
+
+  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+    /* font-size: 18px; */
+    font-size: 14px;
+  }
+
+  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+    /* font-size: 32px; */
+    font-size: 16px;
+  }
+
+
+  ql-picker.ql-font {
+    .ql-picker-item {
+      font-size: 0;
+      &:before {
+        content: attr(data-value) !important;
+        font-size: 14px;
+      }
+    }
+  }
+  
+  .ql-picker.ql-font{
+    .ql-active {
+      &:before {
+        content: attr(data-value) !important;
+        font-size: 14px;
+      }
+    }
+  }
+  
+  .ql-picker.ql-font .ql-picker-label[data-value="Roboto"]::before, 
+  .ql-picker.ql-font .ql-picker-item[data-value="Roboto"]::before
+  {
+      font-family: "Roboto", cursive;;
+      content: "Roboto" !important;
+  }
+  
+  .ql-picker.ql-font .ql-picker-label[data-value="Raleway"]::before, 
+  .ql-picker.ql-font .ql-picker-item[data-value="Raleway"]::before
+  {
+      font-family: "Raleway", cursive;;
+      content: "Raleway" !important;
+  }
+  
+  .ql-picker.ql-font .ql-picker-label[data-value="Montserrat"]::before, 
+  .ql-picker.ql-font .ql-picker-item[data-value="Montserrat"]::before
+  {
+      font-family: "Montserrat", cursive;;
+      content: "Montserrat" !important;
+  }
+  
+  .ql-picker.ql-font .ql-picker-label[data-value="Lato"]::before, 
+  .ql-picker.ql-font .ql-picker-item[data-value="Lato"]::before
+  {
+      font-family: "Lato", cursive;;
+      content: "Lato" !important;
+  }
+  
+  .ql-picker.ql-font .ql-picker-label[data-value="Rubik"]::before, 
+  .ql-picker.ql-font .ql-picker-item[data-value="Rubik"]::before
+  {
+      font-family: "Rubik", cursive;;
+      content: "Rubik" !important;
+  }
+  
+  /* Set content font-families */
+  .ql-font-Roboto {
+    font-family: "Roboto";
+  }
+  .ql-font-Raleway {
+    font-family: "Raleway";
+  }
+  .ql-font-Montserrat {
+    font-family: "Montserrat";
+  }
+  .ql-font-Lato {
+    font-family: "Lato";
+  }
+  .ql-font-Rubik {
+    font-family: "Rubik";
+  }
