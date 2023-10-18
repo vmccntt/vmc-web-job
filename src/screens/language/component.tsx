@@ -157,7 +157,7 @@ const LanguagePage = () => {
   };
 
   useEffect(() => {
-    isLanguageList && dispatch(getLanguagesAction({}) as any);
+    // isLanguageList && dispatch(getLanguagesAction({}) as any);
   }, [dispatch, isLanguageList]);
 
   useEffect(() => {

@@ -87,7 +87,7 @@ export const deleteLanguageAction = createAsyncThunk(
       dispatch(setLoadingAction(true));
       await deleteLanguage(payload.id);
       dispatch(setLoadingAction(false));
-      dispatch(getLanguagesAction({}));
+      // dispatch(getLanguagesAction({}));
     } catch (error) {
       dispatch(setLoadingAction(false));
     }

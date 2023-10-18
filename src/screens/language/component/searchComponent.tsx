@@ -19,7 +19,7 @@ const SearchComponent = () => {
   const dispatch = useDispatch();
 
   const [dataState, dataStateFn] = useAsyncFn(async (params: ISearchLanguage) => {
-    return dispatch(getLanguagesAction(params) as any);
+    // return dispatch(getLanguagesAction(params) as any);
   });
 
   const debounceLoadData = useMemo(

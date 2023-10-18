@@ -19,7 +19,7 @@ function SignInComponent() {
   return (
     <div className="form-container sign-in-container">
       <form onSubmit={_onSubmit}>
-        <h1>CRM - Đăng nhập</h1>
+        <h1>SCHEDULE - Đăng nhập</h1>
         <input
           placeholder="username"
           className={errors.username?.message ? "error" : ""}

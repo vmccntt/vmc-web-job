@@ -281,7 +281,7 @@ function PostPage(props: any) {
     dispatch(setLoadingAction(true));
     let categoryId;
     const query: any = getQuery();
-    if (!languageData.length) await dispatch(getLanguagesAction({}) as any);
+    // if (!languageData.length) await dispatch(getLanguagesAction({}) as any);
     const languages: ILanguage[] = languageData || [];
 
     const language = query.language || languages[0]?.code || "";

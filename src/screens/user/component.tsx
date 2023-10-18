@@ -152,7 +152,7 @@ const UserPage = () => {
   useEffect(() => {
     isUserList && dispatch(getUsersAction({}) as any);
     if (!dataReducer.roleGroup?.length) {
-      dispatch(getRoleGroupAction({}) as any);
+      // dispatch(getRoleGroupAction({}) as any);
     }
   }, [dispatch, dataReducer.roleGroup, isUserList]);
 
